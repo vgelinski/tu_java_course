@@ -1,0 +1,92 @@
+\documentclass{beamer}
+
+\usetheme{Warsaw}
+
+\usepackage{amsthm}
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage[bulgarian]{babel}
+
+\usepackage{hyperref}
+
+\title{Класове и пакети, наследяване, абстрактни класове и интерфейси, полиморфизъм, капсулация на данни}
+\author{Валентин Гелински}
+\institute{ТУ София}
+\date{\today} 
+
+
+\begin{document}
+
+
+  \begin{frame} 
+    \titlepage
+  \end{frame}
+
+  \section{Класове}
+
+  \begin{frame} 
+    \frametitle{Класове и обекти - отново}
+     \begin{block}{Според Wikipedia}
+       Класът е съвкупност от променливи и функции, които са обвързани в логическа структура и работят заедно. Класът служи като модел за представяне на реални обекти и софтуерни обекти, описвайки атрибути (свойства) и методи (поведение) на обектите.
+     \end{block}
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Важни думички}
+    \begin{itemize}
+      \item{Конструктор}
+      \item{this}
+      \item{null}
+    \end{itemize}
+  \end{frame}
+
+  \section{Наследяване}
+
+  \begin{frame}
+    \frametitle{Наследяване}
+    \begin{block}{Според Wikipedia}
+      Inheritance is when an object or class is based on another object or class, using the same implementation (inheriting from a class) or specifying implementation to maintain the same behavior 
+    \end{block}
+  \end{frame}
+
+  \section{Абстрактни класове и интерфейси}
+
+  \begin{frame}
+    \frametitle{Абстрактни класове и интерфейси}
+    \begin{itemize}
+      \item{Абстрактен клас - клас с поне един абстрактен метод}
+      \item{Интерфейс - напълно абстрактен клас}
+    \end{itemize}
+  \end{frame}
+
+  \section{Полиморфизъм}
+
+  \begin{frame}
+    \frametitle{Полиморфизъм}
+    \begin{itemize}
+      \item{Dynamic vs static binding}
+      \item{Method overloading}
+      \item{Method overriding}
+    \end{itemize}
+  \end{frame}
+
+  \section{Енкапсулация на данни}
+
+  \begin{frame}
+    \frametitle{Енкапсулация на данни}
+    \framesubtitle{Когато моето си е мое}
+    Потребителят на нашият код трябва да знае само какво правим, а не как го правим.
+  \end{frame}
+
+  \begin{frame}
+    \includegraphics[width=250px]{img/scumbag_teacher}
+  \end{frame}
+
+\end{document}
+
