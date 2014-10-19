@@ -36,6 +36,7 @@ local.properties
 
 # PDT-specific
 .buildpath
+.classpath
 
 # sbteclipse plugin 
 .target
